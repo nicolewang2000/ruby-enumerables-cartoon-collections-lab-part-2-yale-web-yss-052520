@@ -7,7 +7,7 @@ end
 def summon_captain_planet(planeteer_calls)
   # Use an Enumerable to capitalize and add '!' to every element in the passed in array
   # Return a new array of the results
-  planeteer_calls.collect {|string| string.capitalize + "!"}
+  planeteer_calls.collect {|element| element.capitalize + "!"}
   planeteer_calls
 end
 
